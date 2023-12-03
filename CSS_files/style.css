@@ -1,39 +1,126 @@
+/* Laptop */
+@media(min-width:1000px){
 
-h1{
-    background-color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.navBarRow{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    background-color: black;
 }
 
-#A{
-    background-color: aquamarine;
+.navCol{
+
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 50px;
+    align-items: center;
 }
 
-.list{
+.navCol > b{
 
-    background-color: blueviolet;
+    justify-content: center;
+    flex: 1 1 20px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
 }
 
-ul.list{
+.navCol > a{
 
-    background-color: yellow;
+    justify-content: space-evenly;
+    flex: 1 1 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
 
-ol > li{
 
-    background-color: tomato;
+
 }
 
-ul li{
-    background-color: chartreuse;
+/* Tablet */
+@media(max-width:1000px) and (min-width:600px){
+
+
+    .navBarRow{
+        display: flex;
+        height: auto;
+        flex-direction: row;
+        background-color: black;
+    }
+    
+    .navCol{
+    
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 35px;
+        align-items: center;
+    }
+    
+    .navCol > b{
+    
+        justify-content: center;
+        flex: 1 1 13px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    
+    }
+    
+    .navCol > a{
+    
+        justify-content: space-evenly;
+        flex: 1 1 13px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    
+
+
+
+
 }
 
-h3,p,i{
+/* Mobile */
+@media(max-width:600px){
 
-    background-color: yellowgreen;
+    .navBarRow{
+        display: flex;
+        height: auto;
+        flex-direction: row;
+        background-color: black;
+    }
+    
+    .navCol{
+    
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 22px;
+        align-items: center;
+    }
+    
+    .navCol > b{
+    
+        justify-content: center;
+        flex: 1 1 8px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    .navCol > a{
+    
+        justify-content: space-evenly;
+        flex: 1 1 8px;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }
+
+
+
 }
-
-input[type="password"]{
-
-    background-color: blue;
-}
-
