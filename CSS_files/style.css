@@ -1,8 +1,39 @@
 
-body {
-    background-image: url('../Images/Hacker.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    /* Additional CSS styles for your content */
+h1{
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#A{
+    background-color: aquamarine;
+}
+
+.list{
+
+    background-color: blueviolet;
+}
+
+ul.list{
+
+    background-color: yellow;
+}
+
+ol > li{
+
+    background-color: tomato;
+}
+
+ul li{
+    background-color: chartreuse;
+}
+
+h3,p,i{
+
+    background-color: yellowgreen;
+}
+
+input[type="password"]{
+
+    background-color: blue;
 }
 

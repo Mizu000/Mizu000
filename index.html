@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="stylesheet" href="CSS_files/style.css"/>
+    <Style>
 
+       sub{
+          color: blue;
+       }
+
+    </Style>
 
 </head>
 <body>
-   <h1>This is heading 1</h1>
-   <h2>This is heading 2</h2>
+   <h1 style="color:blueviolet; background-color:cadetblue">This is heading 1</h1>
+   <h2 style="font-family: Arial, Helvetica, sans-serif;">This is heading 2</h2>
    <a href="#A">Clicl to go to list A</a>
    <b>This is bold</b>
+   <p>
+        This is a paragraph.My name is miraj and i am android and web developer and also 
+        a game developer and a ethical hacker.<br>
+        This is new line<br>
+            This is also new line
+   </p>
    <u>Underlined</u>
    <strong>This is Strong</strong>
    <i>This is italic</i>
@@ -19,9 +32,9 @@
    <s>This is strike</s>
    <small>This is small</small><br>
    <b>H</b><sub>2</sub><b>O</b><hr>
-   <b>10</b><sup>3</sup><hr>
+   <b>10</b><sup style="color: red;">3</sup><hr>
    <h3>unordered list of game</h3>
-   <ul>
+   <ul class="list">
         <li>Football</li>
         <li>Cricket</li>
         <li>Tennis</li>
@@ -31,7 +44,7 @@
         <li>Cricket</li>
         <li>Tennis</li>
    </ul>
-   <ul type = "square">
+   <ul class="list" type = "square">
         <li>Football</li>
         <li>Cricket</li>
         <li>Tennis</li>
@@ -42,7 +55,7 @@
         <li>Tennis</li>
    </ul>
    <h3>ordered list of game</h3>
-   <ol>
+   <ol class="list">
         <li>Football</li>
         <li>Cricket</li>
         <li>Tennis</li>
@@ -67,5 +80,151 @@
         <li>Cricket</li>
         <li>Tennis</li>
    </ol>
+
+   <table border="1" cellspacing="0" cellpadding="3" height="250" widht="950">
+     <tr>
+          <th colspan="2">Subject</th>
+          <th colspan="3">Full Marks</th>
+          <th colspan="4">Marks Obtained</th>
+     </tr> 
+     <tr>
+          <td colspan="2">compulsory Subject</td>
+          <td>Written</td>
+          <td>Oral</td>
+          <td>Total</td>
+          <td>Written</td>
+          <td>Oral</td>
+          <td>Total</td>
+          <td>Grade</td>
+     </tr>  
+     <tr>
+          <td colspan="2">First Language</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2">Second Language</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2">Mathematics</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2">Physical Science</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2">Life Science</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2">History</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2">Geography</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2">Optional Subject</td>
+          <td>90</td>
+          <td>10</td>
+          <td>100</td>
+          <td>87</td>
+          <td>7</td>
+          <td>94</td>
+          <td>A</td>
+     </tr>  
+     <tr>
+          <td colspan="2" rowspan="2">Result</td>
+          <td colspan="7">P</td>
+          
+     </tr>  
+
+     <tr>
+               <td colspan="7">Nothing</td>
+     </tr>
+
+
+   </table>
+   <br><br>
+
+   <form>
+     <b>Enter Email</b> <input type="text" name="email"/><br>
+     <b>Enter Password</b> <input type="password" name="password"/><br>
+     <b>Select Gender</b><br>
+     <input type="radio" name="gender"/>Male
+     <input type="radio" name="gender"/>Female <br>
+     <b>Select hobbies</b><br>
+     <input type="checkbox" name="hobby"/>Singing
+     <input type="checkbox" name="hobby"/>Dancing
+     <input type="checkbox" name="hobby"/>Reading<br>
+     <select>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Delhi">Delhi</option>
+     </select><br>
+     <textarea cols="20" rows="10">Write ...</textarea><br>
+     <input type="submit" value="submit"/>
+   </form>
+
+   <div style="font-size: 100px;">
+
+          <b style="font-size: 30%;">Hello This is Bold</b><br>
+          <b style="font-style: italic;">This is font style italic</b><br>
+          <p style="font-weight: bold;">This is font style normal</p>
+         
+
+   </div>
+   <div>
+     <p style="text-align: right;">Right</p><br>
+     <p style="text-align: center;">Rightc</p><br>
+     <p style="text-align: left;">Rightc</p><br>
+     <p style="text-align: justify;">Rightc</p><br>
+     <b style="line-height: 10;font-size: 10px;">Rightc</b><br>
+   </div>
+ 
 </body>
 </html>
